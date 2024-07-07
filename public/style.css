@@ -1,0 +1,80 @@
+body{
+    left: 20px;
+    background-color: black;
+}
+
+.chat{
+    background-color:rgba(30,190,165,0.9) ;
+    padding: 20px;
+    border-radius: 16px;
+    display: inline-block;
+    width: 500px;
+    position: relative;
+    left: 500px;
+}
+
+.chat:hover{
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    transform: scale(1.03);
+}
+
+.msg{
+    background-color: rgb(39,52,67);
+    color: white;
+    padding: 5px 15px;
+    border-radius: 5px;
+}
+
+h1{
+    position: relative;
+    left: 700px;
+    color: white;
+}
+
+.btn{
+    background-color: black;
+    color:white ;
+    border-radius: 16px;
+    display: inline-block;
+    width: 100px;
+    position: relative;
+    left: 725px;
+    border:5px solid rgb(30,190,165);
+}
+
+.btn:hover{
+    background-color: rgb(30,190,165);
+    color: black;
+}
+
+.ebtn{
+    background-color: black;
+    color:white ;
+    border-radius: 16px;
+    display: inline-block;
+    width: 100px;
+    border:5px solid rgb(30,190,165);
+}
+
+.ebtn:hover{
+    background-color: rgb(30,190,165);
+    color: black;
+}
+
+.dbtn{
+    background-color: black;
+    color:white ;
+    border-radius: 16px;
+    display: inline-block;
+    width: 100px;
+    border:5px solid rgb(30,190,165);
+    position: relative;
+    left: 370px;
+    bottom:27px;
+}
+
+.dbtn:hover{
+    background-color: red;
+    color: white;
+    border:5px solid red;
+}
